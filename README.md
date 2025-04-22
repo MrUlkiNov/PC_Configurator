@@ -110,7 +110,7 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 | <img src="screenshots/Вход.png" width="400"> | <img src="screenshots/Авторизация.png" width="400"> | <img src="screenshots/Главная.png" width="400"> |
 | Список запчастей | Карточка запчасти | Ошибка сборки |
 |------------------|-------------------|---------------|
-| <img src="screenshots/Список.png" width="400"> | <img src="screenshots/Карточка.png" width="400"> | <img src="screenshots/Ошибка.png" width="400"> |
+| <img src="screenshots/Список .png" width="400"> | <img src="screenshots/Карточка.png" width="400"> | <img src="screenshots/Ошибка.png" width="400"> |
 
 | Успешная сборка | Форма оформления | Создание заказа |
 |-----------------|------------------|-----------------|
