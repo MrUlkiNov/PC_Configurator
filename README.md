@@ -2,7 +2,6 @@
 
 [![Django](https://img.shields.io/badge/Django-5.1.7-44B78B?logo=django)](https://www.djangoproject.com/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap)](https://getbootstrap.com/)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
 **Умный конструктор для подбора совместимых компонентов ПК с автоматической проверкой и расчётом стоимости**  
 [Демо проекта](https://github.com/MrUlkiNov/PC_Configurator.git) | [Исходный код](https://github.com/MrUlkiNov/PC_Configurator.git)
@@ -138,7 +137,7 @@ pip install django-crispy-forms==2.4
 ---
 
 📄 Лицензия
-Проект распространяется под лицензией MIT.
+Проект распространяется под лицензией GPL-3.0 license.
 ---
 Автор: MrUlkiNov
 📧 Email: sam.baybekov@mail.ru
