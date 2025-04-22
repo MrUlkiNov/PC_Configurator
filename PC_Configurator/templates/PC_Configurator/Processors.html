@@ -1,0 +1,36 @@
+{% extends 'PC_Configurator/base_list.html' %}
+{% block Title %} Процессоры {% endblock %}
+{% load static %}
+{% block css_additional %}
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/list.css' %}">
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/style.css' %}">
+{% endblock %}
+{% block content %}
+    {% for processor in processors %}
+        <li>
+            <div class="product">
+                <div class="product-img-container">
+                    <a href="{{ processor.get_url }}"><img src="{{ processor.Photo.url }}" class="product-img"
+                                                           width="200" height="150"></a>
+                </div>
+                <p class="product-title">
+                    <a href="{{ processor.get_url }}"><b>{{ processor.Name }}</b></a>
+                </p>
+                <p class="product-desc">
+                    {{ processor }}
+                </p>
+                <p class="product-price">
+                    <b>Цена {{ processor.Price }}₽</b>
+                </p>
+                <form method="post">
+
+                    {% csrf_token %}
+                    <input type="hidden" name="processor_id" value="{{ processor.id }}">
+                    <button type="submit" class="btn-succes">
+                        Добавить в конфигуратор
+                    </button>
+                </form>
+            </div>
+        </li>
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Inter:wght@400;700&display=swap');
+
+body {
+    background: radial-gradient(circle at center, #0a0a1a, #000) !important;
+    font-family: 'Inter', sans-serif !important;
+    color: #fff;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.configurator-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.iron-item {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 105, 180, 0.3);
+    border-radius: 20px;
+    padding: 25px;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(255, 105, 180, 0.1);
+}
+
+.iron-item::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+            45deg,
+            rgba(255, 105, 180, 0.1) 0%,
+            rgba(255, 85, 187, 0.2) 50%,
+            rgba(255, 105, 180, 0.1) 100%
+    );
+    opacity: 0;
+    transition: opacity 0.4s;
+    pointer-events: none;
+}
+
+.iron-item:hover::before {
+    opacity: 1;
+}
+
+.submit {
+    grid-column: 1 / -1;
+    background: rgba(15, 15, 35, 0.9) !important;
+    border: 1px solid rgba(255, 105, 180, 0.3) !important;
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 30px;
+    backdrop-filter: blur(10px);
+}
+
+.name {
+    font-family: 'Orbitron', sans-serif !important;
+    color: #ff55bb !important;
+    font-size: 1.4rem !important;
+    margin-bottom: 15px;
+    text-shadow: 0 0 15px rgba(255, 85, 187, 0.3);
+}
+
+.price {
+    color: #ff6b6b !important;
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 1.3rem !important;
+    margin: 20px 0;
+}
+
+.image {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin: 0 auto 20px;
+    display: block;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 105, 180, 0.2);
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.button {
+    background: linear-gradient(135deg, #ff55bb, #ff6b6b);
+    border: none;
+    padding: 14px 28px;
+    border-radius: 15px;
+    font-weight: 600;
+    position: relative;
+    left: 35px;
+    top: 15px;
+    width: 300px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transform: rotate(45deg);
+    animation: shine 3s infinite;
+}
+
+.button::before {
+    content: '🚀 Собрать ПК';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #ff55bb, #ff6b6b);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+@keyframes shine {
+    0% {
+        left: -50%;
+    }
+    100% {
+        left: 150%;
+    }
+}
+
+@media (max-width: 768px) {
+    .configurator-container {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .iron-item {
+        margin: 10px 0;
+        padding: 15px;
+    }
+
+    .button {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+.button:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(255, 85, 187, 0.4) !important;
+}
+
+.btn-succes {
+    background: linear-gradient(135deg, #ff55bb, #ff6b6b) !important;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.btn-succes:hover {
+    background: linear-gradient(135deg, #ff8e53, #ff6b6b);
+    transform: translateY(-2px);
+}
+
+.error {
+    color: #ff6b6b;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.finall {
+    color: #ff6b6b !important;
+    font-size: 2.5rem !important;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 0 0 25px rgba(78, 205, 196, 0.3);
+    margin: 0;
+    order: 2;
+}
+
+.text::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #ff55bb, transparent);
+}
+
+.text {
+    color: white;
+    font-size: 2.5rem !important;
+    letter-spacing: 2px;
+    margin-bottom: 40px !important;
+    display: inline-block;
+}
+
+/* Анимации */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.iron-item {
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+@media (max-width: 768px) {
+    .configurator-container {
+        grid-template-columns: 1fr;
+        padding: 20px 15px;
+        margin-top: 60px;
+    }
+
+    .iron-item {
+        padding: 20px;
+        margin: 0 0 25px 0 !important;
+    }
+
+    .button {
+        width: 100%;
+        padding: 12px;
+    }
+}

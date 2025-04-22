@@ -1,0 +1,36 @@
+{% extends 'PC_Configurator/base_list.html' %}
+{% block Title %}Блок питания{% endblock %}
+{% load static %}
+{% block css_additional %}
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/style.css' %}">
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/product.css' %}">
+{% endblock %}
+{% block content %}
+    <div class="product">
+        <h1>{{ pow.Name }}</h1>
+        <div class="product-content">
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="{{ pow.Photo.url }}" alt="{{ pow.Name }}">
+                </div>
+            </div>
+
+            <div class="specs">
+                <h2>Характеристики</h2>
+                <div class="specs-list">
+                    <h3>Мощность: <span>{{ pow.Power }} ГБ</span></h3>
+                    <h3>Разъемы питания: <span>{{ pow.Base_connector }} </span></h3>
+                    <h3>Питание процессора: <span>{{ pow.Cpu_connector }} pin CPU</span></h3>
+                    <h3>Разъемы питания SATA: <span>{{ pow.Sata_coonector }} МБ</span></h3>
+                </div>
+                <form method="post" class="add-form">
+                    {% csrf_token %}
+                    <input type="hidden" name="pow_id" value="{{ pow.id }}">
+                    <button type="submit" class="btn-succes">
+                        Добавить в конфигуратор
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

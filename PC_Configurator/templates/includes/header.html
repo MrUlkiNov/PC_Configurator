@@ -1,0 +1,39 @@
+<header class="d-flex flex-wrap justify-content-between align-items-center py-3 mb-4 border-bottom cosmic-header">
+    {% load static %}
+    {% block css_additional %}
+        <link rel="stylesheet" href="{% static 'PC_Configurator/style.css' %}">
+    {% endblock %}
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 text-decoration-none ms-4">
+        <span class="logo-text">NebulaPC</span>
+    </a>
+
+    <div class="me-4">
+        <ul class="nav nav-pills cosmic-nav align-items-center">
+            {% if request.path != '/Configurator' %}
+                <li class="nav-item me-3">
+                    <a href="javascript:history.back()" class="nav-link glow-on-hover">
+                        ← Назад
+                    </a>
+                </li>
+            {% endif %}
+            {% if user.is_authenticated %}
+                <!-- Кнопка "Конфигуратор" -->
+                <li class="nav-item me-3">
+                    <a href="{% url 'configurator' %}" class="nav-link glow-on-hover configurator-btn">
+                        🛠️ Конфигуратор
+                    </a>
+                </li>
+                <li class="nav-item me-3">
+                    <span class="nav-link user-greeting">
+                        👤 {{ user.username }}
+                    </span>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'logout' %}" class="nav-link glow-on-hover">
+                        Выйти
+                    </a>
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+</header>

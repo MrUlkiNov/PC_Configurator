@@ -1,0 +1,38 @@
+{% extends 'PC_Configurator/base_list.html' %}
+{% block Title %}Процессор{% endblock %}
+{% load static %}
+{% block css_additional %}
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/style.css' %}">
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/product.css' %}">
+{% endblock %}
+{% block content %}
+    <div class="product">
+        <h1>{{ processor.Name }}</h1>
+        <div class="product-content">
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="{{ processor.Photo.url }}" alt="{{ processor.Name }}">
+                </div>
+            </div>
+
+            <div class="specs">
+                <h2>Характеристики</h2>
+                <div class="specs-list">
+                    <h3>Сокет: <span>{{ processor.Socket }}</span></h3>
+                    <h3>Количество ядер: <span>{{ processor.Cores }}</span></h3>
+                    <h3>Мощность ядер: <span>{{ processor.Frequency }} ГГц</span></h3>
+                    <h3>Оперативка: <span>{{ processor.Memory_type }}-{{ processor.Max_RAM_frequency }} Мгц</span></h3>
+                    <h3>Графическое ядро: <span>{{ processor.Graphics_core }}</span></h3>
+                    <h3>Теплоотдача: <span>{{ processor.Heat_dissipation }}</span></h3>
+                </div>
+                <form method="post" class="add-form">
+                    {% csrf_token %}
+                    <input type="hidden" name="processor_id" value="{{ processor.id }}">
+                    <button type="submit" class="btn-succes">
+                        Добавить в конфигуратор
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

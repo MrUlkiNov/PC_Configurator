@@ -1,0 +1,35 @@
+{% extends 'PC_Configurator/base_list.html' %}
+{% block Title %}Корпус{% endblock %}
+{% load static %}
+{% block css_additional %}
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/style.css' %}">
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/product.css' %}">
+{% endblock %}
+{% block content %}
+    <div class="product">
+        <h1>{{ case.Name }}</h1>
+        <div class="product-content">
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="{{ case.Photo.url }}" alt="{{ case.Name }}">
+                </div>
+            </div>
+
+            <div class="specs">
+                <h2>Характеристики</h2>
+                <div class="specs-list">
+                    <h3>Максимальный форм фактор: <span>{{ case.Form }}</span></h3>
+                    <h3>Цвет: <span>{{ case.Color }}</span></h3>
+                    <h3>USB разъемы: <span>{{ case.USB }} </span></h3>
+                </div>
+                <form method="post" class="add-form">
+                    {% csrf_token %}
+                    <input type="hidden" name="case_id" value="{{ case.id }}">
+                    <button type="submit" class="btn-succes">
+                        Добавить в конфигуратор
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

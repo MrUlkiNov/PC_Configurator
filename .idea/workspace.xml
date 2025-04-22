@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e82b1551-d389-4218-a8a4-e55ed3b5844a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airplane/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airplane/.idea/Airplane.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airplane/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airplane/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airplane/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airplane/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airplane/Ubisoft2/templates/Ubisoft2/Home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airplane/Ubisoft2/templates/Ubisoft2/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airplane/Ubisoft2/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kursach/.idea/Kursach.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kursach/computer_parts/parts_finder/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC_Configurator/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC_Configurator/migrations/0030_alter_motherboard_name_alter_processor_name_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC_Configurator/migrations/0031_userconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC_Configurator/migrations/0032_order_total_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/auth/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/order_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/order_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Авторизация.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Главное окно.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Карточка.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Оформление.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Ошибка.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Список .png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Успех.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Форма входа.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Форма оформления.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Review/Review_app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Review/Review_app/static/Review_app/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Review/Review_app/templates/Review_app/Home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Review/Review_app/templates/Review_app/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Review/Review_app/templates/Review_app/done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Review/Review_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/.idea/bookshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/book_app/templates/book_app/actors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/book_app/templates/book_app/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/book_app/templates/book_app/directors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/book_app/templates/book_app/one_actor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/book_app/templates/book_app/one_director.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/book_app/templates/book_app/show_books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/book_app/templates/book_app/show_one_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookshop/book_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../movie_progect/.idea/movie_progect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/.idea/my_page.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/Example/templates/Example/acrots.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/Example/templates/Example/guinnessworldrecodrs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/Example/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/Help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/Week_days/templates/Week_days/greeting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/Week_days/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/geometry/templates/geometry/rectangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/geometry/templates/geometry/square.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/geometry/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/horoscope/static/horoscope/css/show_zodiac.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/horoscope/templates/includes/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/horoscope/templates/show_zodiac.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/horoscope/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my_page/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/static/PC_Configurator/configurator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/static/PC_Configurator/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/static/PC_Configurator/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/static/PC_Configurator/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/Cases.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/Configurator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/Coolers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/HDD.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/Motherboards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/One_case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/One_cooler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/One_hdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/One_motherboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/One_powerblock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/One_processor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/One_ram.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/One_videocard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/Powerblocks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/Processors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/RAMS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/Videocards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/PC_Configurator/base_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/templates/includes/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pc_builder/PC_Configurator/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taskmanager/main/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taskmanager/main/templates/main/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taskmanager/main/templates/main/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taskmanager/main/templates/main/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taskmanager/main/templates/main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../taskmanager/main/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Oop task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ProgectJ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ruslan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ruslan2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/Trstdb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/Trstdb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pc_builder.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/static/PC_Configurator/configurator.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/static/PC_Configurator/configurator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/static/PC_Configurator/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/static/PC_Configurator/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/static/PC_Configurator/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/static/PC_Configurator/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/static/PC_Configurator/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/static/PC_Configurator/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/Cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/Cases.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/Configurator.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/Configurator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/Coolers.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/Coolers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/HDD.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/HDD.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/Motherboards.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/Motherboards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_case.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_case.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_cooler.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_cooler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_hdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_hdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_motherboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_motherboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_powerblock.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_powerblock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_processor.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_processor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_ram.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_ram.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_videocard.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/One_videocard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/Powerblocks.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/Powerblocks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/Processors.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/Processors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/RAMS.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/RAMS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/Videocards.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/Videocards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/base_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/PC_Configurator/base_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/templates/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/templates/includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC_Configurator/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PC_Configurator/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pc_builder/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pc_builder/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Example 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Example 1.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2N3zOhF1NYLYwK3C2Dhu37ZmTn0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Trstdb\DjangoProject\PC_configurator" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Trstdb\DjangoProject\pc_builder\PC_Configurator\templates\includes" />
+      <recent name="D:\Trstdb\DjangoProject\pc_builder\PC_Configurator\templates\PC_Configurator\includes" />
+      <recent name="D:\Trstdb\DjangoProject\pc_builder\media" />
+      <recent name="D:\Trstdb\DjangoProject\pc_builder\PC_Configurator\static\PC_Configurator\img" />
+      <recent name="D:\Trstdb\DjangoProject\pc_builder\media\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="pc_builder" type="Python.DjangoServer" factoryName="Django server">
+      <module name="pc_builder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e82b1551-d389-4218-a8a4-e55ed3b5844a" name="Changes" comment="" />
+      <created>1678907523336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678907523336</updated>
+      <workItem from="1678907524722" duration="8507000" />
+      <workItem from="1678986146105" duration="11509000" />
+      <workItem from="1679044561999" duration="2659000" />
+      <workItem from="1679071245329" duration="9362000" />
+      <workItem from="1679081365912" duration="107000" />
+      <workItem from="1679081489890" duration="376000" />
+      <workItem from="1679152142091" duration="19041000" />
+      <workItem from="1679171868264" duration="1275000" />
+      <workItem from="1679220381681" duration="6570000" />
+      <workItem from="1679227228144" duration="14409000" />
+      <workItem from="1680016726510" duration="3737000" />
+      <workItem from="1680102284916" duration="3081000" />
+      <workItem from="1680343914482" duration="8421000" />
+      <workItem from="1680429488504" duration="5281000" />
+      <workItem from="1680617951406" duration="2298000" />
+      <workItem from="1681912712919" duration="846000" />
+      <workItem from="1709891314192" duration="1615000" />
+      <workItem from="1709899935268" duration="1109000" />
+      <workItem from="1709905718032" duration="21000" />
+      <workItem from="1715102556502" duration="242000" />
+      <workItem from="1733835603685" duration="62000" />
+      <workItem from="1744639257813" duration="2210000" />
+      <workItem from="1744641599788" duration="15797000" />
+      <workItem from="1744805984063" duration="12312000" />
+      <workItem from="1745326135724" duration="827000" />
+      <workItem from="1745331988402" duration="6534000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

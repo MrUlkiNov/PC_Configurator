@@ -1,0 +1,38 @@
+{% extends 'PC_Configurator/base_list.html' %}
+{% block Title %}Материнская плата{% endblock %}
+{% load static %}
+{% block css_additional %}
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/style.css' %}">
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/product.css' %}">
+{% endblock %}
+{% block content %}
+    <div class="product">
+        <h1>{{ motherboard.Name }}</h1>
+        <div class="product-content">
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="{{ motherboard.Photo.url }}" alt="{{ motherboard.Name }}">
+                </div>
+            </div>
+
+            <div class="specs">
+                <h2>Характеристики</h2>
+                <div class="specs-list">
+                    <h3>Сокет: <span>{{ motherboard.Socket }}</span></h3>
+                    <h3>Чипсет: <span>{{ motherboard.Chipset }} </span></h3>
+                    <h3>Оперативная: <span>{{ motherboard.Memory_type }}-{{ motherboard.Max_RAM_frequency }} Мгц</span>
+                    </h3>
+                    <h3>PCI слот: <span>{{ motherboard.PCI_slot }}</span></h3>
+                    <h3>Размер: <span>{{ motherboard.Size }}</span></h3>
+                </div>
+                <form method="post" class="add-form">
+                    {% csrf_token %}
+                    <input type="hidden" name="motherboard_id" value="{{ motherboard.id }}">
+                    <button type="submit" class="btn-succes">
+                        Добавить в конфигуратор
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

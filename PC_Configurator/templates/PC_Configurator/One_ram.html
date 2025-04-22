@@ -1,0 +1,35 @@
+{% extends 'PC_Configurator/base_list.html' %}
+{% block Title %}Оперативная память{% endblock %}
+{% load static %}
+{% block css_additional %}
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/style.css' %}">
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/product.css' %}">
+{% endblock %}
+{% block content %}
+    <div class="product">
+        <h1>{{ ram.Name }}</h1>
+        <div class="product-content">
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="{{ ram.Photo.url }}" alt="{{ ram.Name }}">
+                </div>
+            </div>
+
+            <div class="specs">
+                <h2>Характеристики</h2>
+                <div class="specs-list">
+                    <h3>Тип памяти: <span>{{ ram.Memory_type }} Гб</span></h3>
+                    <h3>Объем памяти: <span>{{ ram.Memory }} </span></h3>
+                    <h3>Максимальная частота: <span>{{ ram.Max_frequency }}</span></h3>
+                </div>
+                <form method="post" class="add-form">
+                    {% csrf_token %}
+                    <input type="hidden" name="ram_id" value="{{ ram.id }}">
+                    <button type="submit" class="btn-succes">
+                        Добавить в конфигуратор
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

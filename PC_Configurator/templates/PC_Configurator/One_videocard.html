@@ -1,0 +1,38 @@
+{% extends 'PC_Configurator/base_list.html' %}
+{% block Title %}Видеокарта{% endblock %}
+{% load static %}
+{% block css_additional %}
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/style.css' %}">
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/product.css' %}">
+{% endblock %}
+{% block content %}
+    <div class="product">
+        <h1>{{ videocard.Name }}</h1>
+        <div class="product-content">
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="{{ videocard.Photo.url }}" alt="{{ videocard.Name }}">
+                </div>
+            </div>
+
+            <div class="specs">
+                <h2>Характеристики</h2>
+                <div class="specs-list">
+                    <h3>Кол-во памяти : <span>{{ videocard.Memory }} Гб</span></h3>
+                    <h3>Тип видеопамяти: <span>{{ videocard.Type_memory }} </span></h3>
+                    <h3>Видеоразъёмы: <span>{{ videocard.Connectors }}</span></h3>
+                    <h3>PCI слот: <span>{{ videocard.PCI_slot }}</span></h3>
+                    <h3>Разрядность: <span>{{ videocard.Bit }} Бит</span></h3>
+                    <h3>GPU: <span>{{ videocard.Video_frequency }} МГц</span></h3>
+                </div>
+                <form method="post" class="add-form">
+                    {% csrf_token %}
+                    <input type="hidden" name="videocard_id" value="{{ videocard.id }}">
+                    <button type="submit" class="btn-succes">
+                        Добавить в конфигуратор
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

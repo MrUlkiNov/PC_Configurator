@@ -1,0 +1,36 @@
+{% extends 'PC_Configurator/base_list.html' %}
+{% block Title %} Кулеры {% endblock %}
+{% load static %}
+{% block css_additional %}
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/list.css' %}">
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/style.css' %}">
+{% endblock %}
+{% block content %}
+    {% for cooler in coolers %}
+        <li>
+            <div class="product">
+                <div class="product-img-container">
+                    <a href="{{ cooler.get_url }}"><img src="{{ cooler.Photo.url }}" class="product-img" width="200"
+                                                        height="150"></a>
+                </div>
+                <p class="product-title">
+                    <a href="{{ cooler.get_url }}"><b>{{ cooler.Name }}</b></a>
+                </p>
+                <p class="product-desc">
+                    {{ cooler }}
+                </p>
+                <p class="product-price">
+                    <b>Цена {{ cooler.Price }}₽</b>
+                </p>
+                <form method="post">
+
+                    {% csrf_token %}
+                    <input type="hidden" name="cooler_id" value="{{ cooler.id }}">
+                    <button type="submit" class="btn-succes">
+                        Добавить в конфигуратор
+                    </button>
+                </form>
+            </div>
+        </li>
+    {% endfor %}
+{% endblock %}

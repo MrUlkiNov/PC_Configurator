@@ -1,0 +1,11 @@
+{% extends 'PC_Configurator/base_list.html' %}
+{% block content %}
+    <div class="order-page">
+        <h1>Оформление заказа</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="button">Подтвердить заказ</button>
+        </form>
+    </div>
+{% endblock %}

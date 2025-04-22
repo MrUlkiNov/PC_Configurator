@@ -1,0 +1,36 @@
+{% extends 'PC_Configurator/base_list.html' %}
+{% block Title %} Жесткий диск {% endblock %}
+{% load static %}
+{% block css_additional %}
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/list.css' %}">
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/style.css' %}">
+{% endblock %}
+{% block content %}
+    {% for hdd in HDDS %}
+        <li>
+            <div class="product">
+                <div class="product-img-container">
+                    <a href="{{ hdd.get_url }}"><img src="{{ hdd.Photo.url }}" class="product-img" width="200"
+                                                     height="150"></a>
+                </div>
+                <p class="product-title">
+                    <a href="{{ hdd.get_url }}"><b>{{ hdd.Name }}</b></a>
+                </p>
+                <p class="product-desc">
+                    {{ hdd }}
+                </p>
+                <p class="product-price">
+                    <b>Цена {{ hdd.Price }}₽</b>
+                </p>
+                <form method="post">
+
+                    {% csrf_token %}
+                    <input type="hidden" name="hdd_id" value="{{ hdd.id }}">
+                    <button type="submit" class="btn-succes">
+                        Добавить в конфигуратор
+                    </button>
+                </form>
+            </div>
+        </li>
+    {% endfor %}
+{% endblock %}

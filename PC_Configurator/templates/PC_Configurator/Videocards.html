@@ -1,0 +1,35 @@
+{% extends 'PC_Configurator/base_list.html' %}
+{% block Title %} Видеокарты {% endblock %}
+{% load static %}
+{% block css_additional %}
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/list.css' %}">
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/style.css' %}">
+{% endblock %}
+{% block content %}
+    {% for videocard in videocards %}
+        <li>
+            <div class="product">
+                <div class="product-img-container">
+                    <a href="{{ videocard.get_url }}"><img src="{{ videocard.Photo.url }}" class="product-img"
+                                                           width="200" height="150"></a>
+                </div>
+                <p class="product-title">
+                    <a href="{{ videocard.get_url }}"><b>{{ videocard.Name }}</b></a>
+                </p>
+                <p class="product-desc">
+                    {{ videocard }}
+                </p>
+                <p class="product-price">
+                    <b>Цена {{ videocard.Price }}₽</b>
+                </p>
+                <form method="post">
+                    {% csrf_token %}
+                    <input type="hidden" name="videocard_id" value="{{ videocard.id }}">
+                    <button type="submit" class="btn-succes">
+                        Добавить в конфигуратор
+                    </button>
+                </form>
+            </div>
+        </li>
+    {% endfor %}
+{% endblock %}

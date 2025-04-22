@@ -1,0 +1,37 @@
+{% extends 'PC_Configurator/base_list.html' %}
+{% block Title %} Жесткий диск{% endblock %}
+{% load static %}
+{% block css_additional %}
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/style.css' %}">
+    <link rel="stylesheet" href=" {% static 'PC_Configurator/product.css' %}">
+{% endblock %}
+{% block content %}
+    <div class="product">
+        <h1>{{ hdd.Name }}</h1>
+
+        <div class="product-content">
+            <div class="photo-container">
+                <div class="photo">
+                    <img src="{{ hdd.Photo.url }}" alt="{{ hdd.Name }}">
+                </div>
+            </div>
+
+            <div class="specs">
+                <h2>Характеристики</h2>
+                <div class="specs-list">
+                    <h3>Интерфейс: <span>{{ hdd.Interface }}</span></h3>
+                    <h3>Пропускная способность: <span>{{ hdd.Bandwidth }} Гбит/с</span></h3>
+                    <h3>Скорость оборотов: <span>{{ hdd.Speed }} об/мин</span></h3>
+                    <h3>Кэш-память: <span>{{ hdd.Cache }} МБ</span></h3>
+                </div>
+                <form method="post" class="add-form">
+                    {% csrf_token %}
+                    <input type="hidden" name="hdd_id" value="{{ hdd.id }}">
+                    <button type="submit" class="btn-succes">
+                        Добавить в конфигуратор
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
